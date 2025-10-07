@@ -1,0 +1,48 @@
+body        { font-family: Arial, sans-serif; background:#f0f2f5; padding:20px; }
+h1,h2,h3    { color:#333; }
+form        { background:#fff; padding:20px; margin-bottom:25px;
+              border-radius:10px; box-shadow:0 2px 4px rgba(0,0,0,.1); }
+input,button{ margin:5px; padding:8px; border-radius:4px; }
+button      { background:#4CAF50; color:#fff; border:none; cursor:pointer; padding:8px 25px;}
+
+button[type="button"] { background:#777; }
+.form-buttons {
+  margin-top: 10px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+#searchInput {
+  padding: 8px;
+  width: 500px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 30px;
+  margin-top: 1px;
+}
+#searchInput {
+  padding: 8px 35px 8px 8px;
+}
+
+#clearSearch {
+  position: absolute;
+  left: 500px;
+  top: 8px;
+  cursor: pointer;
+  color: black;
+}
+
+#existingAudioPreview audio {
+  margin-top: 5px;
+  width: 100%;
+}
+
+
+
+#library p  { margin-left:20px; }
+audio       { display:block; margin:6px 0; }

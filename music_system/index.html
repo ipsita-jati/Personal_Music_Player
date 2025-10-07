@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Music Library</h1>
+
+    <form id="addForm" enctype="multipart/form-data">
+        <h2>Add Artist, Album & Track</h2>
+        <input type="text"   name="artist"   placeholder="Artist Name"   required>
+        <input type="text"   name="album"    placeholder="Album Name"    required>
+        <input type="text"   name="track"    placeholder="Track Name"    required>
+        <input type="number" name="duration" placeholder="Duration (sec)" required>
+        <input type="file" name="file" accept="audio/*"><br>
+        <div class="form-buttons">
+            <button type="submit" id="submitBtn">Add</button>
+            <button type="button" >Reset</button>
+        </div>
+    </form>
+
+  <div class="search-container" style="text-align: center;">
+  <h2>Search</h2>
+  <div style="position: relative; width: 400px; margin: auto;">
+    <input type="text" id="searchInput" placeholder="Search by artist, album, or track">
+    <span id="clearSearch">❌</span>
+  </div>
+</div>
+    <div id="library"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
